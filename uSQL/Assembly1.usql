@@ -1,0 +1,6 @@
+﻿CREATE ASSEMBLY IF NOT EXISTS [Assembly1]
+FROM "Assembly1.dll"
+WITH ADDITIONAL FILES =
+     (
+         "Assembly1.pdb"
+    );
